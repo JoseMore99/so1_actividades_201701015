@@ -1,0 +1,10 @@
+[Unit]
+Description=Saludos al mundo mas fecha
+After=network.target
+
+[Service]
+Type=simple
+ExecStart="/home/jose/sopes1/magistral/actividad4/actividad4.sh"
+
+[Install]
+WantedBy=default.target
